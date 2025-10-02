@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer((req , resp)=>{
-    resp.write("Hello , world");
+    resp.write("Hello , world this is my first server"); //writing the output on the response object using the write function of the response object
     resp.end();
 }).listen(8000);
 
